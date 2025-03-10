@@ -1,4 +1,4 @@
-*Exampro to aplikacja do tworzenia, przeprowadzania i sprawdzanie testów. Aplikacja została stworzona z wykorzystaniem mySQL, PHP, CSS, oraz oprogramowania XAMPP i Visual Studio Code. Przed uruchomieniem należy zasiać bazę danych za pomocą dołączonego pliku.*
+*Exampro to aplikacja PHP do tworzenia, przeprowadzania i sprawdzanie testów. Aplikacja została stworzona z wykorzystaniem oprogramowania XAMPP i Visual Studio Code. Przed uruchomieniem należy zasiać bazę danych za pomocą dołączonego pliku.*
 
 Logowanie: 
 Po uruchomieniu aplikacji zobaczysz ekran logowania. Musisz w odpowiednie pola wpisać swoje podane wcześniej dane. Nie możesz sam stworzyć nowego użytkownika. Po zalogowaniu zobaczysz różne pola, w zależności na jakie konto się zalogujesz. 
