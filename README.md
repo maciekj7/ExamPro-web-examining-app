@@ -1,32 +1,52 @@
-*Exampro to aplikacja PHP do tworzenia, przeprowadzania i sprawdzanie testów. Aplikacja została stworzona z wykorzystaniem oprogramowania XAMPP i Visual Studio Code. Przed uruchomieniem należy zasiać bazę danych za pomocą dołączonego pliku.*
+**Exampro** is a PHP application for creating, conducting, and grading tests. The application was developed using **XAMPP** and **Visual Studio Code**. Before running it, you need to seed the database using the included file.  
 
-Logowanie: 
-Po uruchomieniu aplikacji zobaczysz ekran logowania. Musisz w odpowiednie pola wpisać swoje podane wcześniej dane. Nie możesz sam stworzyć nowego użytkownika. Po zalogowaniu zobaczysz różne pola, w zależności na jakie konto się zalogujesz. 
+### **Login**  
+After launching the application, you will see the login screen. You must enter your previously provided credentials in the appropriate fields. You cannot create a new user yourself. After logging in, you will see different options depending on the type of account you log into.  
 
-*Konto studenckie:* 
-Po zalogowaniu się na konto z uprawnieniami studenta zobaczysz stronę z wyszukiwarką egzaminów. Wpisz w wyznaczone pole kod testu, który poda ci twórca. 
-Uwaga: Po wyszukaniu odpowiedniego testu od razu rozpocznie się czas. 
+### **Student Account**  
+After logging into a student account, you will see a page with an **exam search bar**. Enter the **test code** provided by the exam creator in the designated field.  
+**Note:** Once the test is found, the timer will start immediately.  
 
-Rozwiazywanie testu 
-Po rozpoczęciu testu wyświetli się pierwsze pytanie, wybierz odpowiedź i kliknij przycisk w prawym dolnym rogu by przejść dalej. Po uzupełnieniu wszystkich pytań kliknij przycisk Zakończ Egzamin. 
+#### **Taking a Test**  
+After starting the test, the first question will appear. Select your answer and click the button in the **bottom right corner** to proceed. After answering all questions, click the **Finish Exam** button.  
 
-*Konto nauczycielskie:* 
-Po zalogowaniu się na konto z uprawnieniami nauczyciela zobaczysz trzy opcję: Zarządzaj egzaminami, Dodaj egzamin oraz Sprawdź wyniki.  
+### **Teacher Account**  
+After logging into a teacher account, you will see three options:  
+- **Manage Exams**  
+- **Add Exam**  
+- **Check Results**  
 
-Dodaj Egzamin 
-Po wybraniu opcji Dodaj egzamin zobaczysz arkusz z Nazwą, Kodem i czasem trwania egzaminu. Pamiętaj by wypełnić te pola. Uwaga: Kod musi być sześcioliczbowym ciągiem znaków, a maksymalny czas to 60 minut. 
-Poniżej znajduje się okno tworzenia pytań. W pierwszej linii napisz treść pytania, następna lina zawiera poprawną odpowiedź, a trzy kolejne błędne odpowiedzi. Pamiętaj, że przy wypełnianiu testu kolejność pytań będzie losowa. 
-By dodać następne pytanie kliknij przycisk zapisz pytanie a następnie strzałkę w prawym dolnym rogu. Jeżeli zapisane pytanie ci nie odpowiada kliknij Usuń pytanie. 
-By zapisać egzamin kliknij odpowiedni przycisk. Egzamin jest gotowy do rozwiązania przez studentów! Uwaga: upewnij się, że po zapisaniu egzaminu pojawiło się potwierdzenie procesu, w przeciwnym razie wystąpił błąd i test nie został zapisany. 
+#### **Add Exam**  
+After selecting **Add Exam**, you will see a form with fields for the **Exam Name, Code,** and **Duration**. Make sure to fill out these fields.  
+**Note:** The code must be a six-character string, and the maximum time limit is **60 minutes**.  
 
-Zarządzaj egzaminami 
-Po wybraniu tej opcji zobaczysz listę stworzonych wcześniej testów zawierających Nazwę, Kod oraz liczbę pytań. Masz też możliwość Usunięcia testu oraz edycji. 
-Po wybraniu edycji testu zobaczysz listę pytań i odpowiedzi. Możesz edytować osobne pytania lub dodać nowe (patrz: Dodaj Egzamin). 
-By wrócić do menu kliknij przycisk Wróć do menu. 
+Below, you will find a section for creating questions.  
+1. Enter the **question text** on the first line.  
+2. The second line contains the **correct answer**.  
+3. The next three lines contain **incorrect answers**.  
 
-Sprawdź wyniki 
-Tutaj zobaczysz listę stworzonych testów. Kliknij Pokaż wyniki by zobaczyć szczegóły. 
-Kliknij Wróć do testów by cofnąć się do liczby testów albo Wróć do menu by wrócić do menu. 
+**Important:** When students take the test, the question order will be randomized.  
 
-Wyloguj 
-Po zakończeniu pracy wyloguj się, korzystając z przycisku z prawym górnym rogu. 
+To add the next question, click **Save Question** and then the arrow in the bottom right corner.  
+- If you are not satisfied with a saved question, click **Delete Question**.  
+- To save the exam, click the **Save Exam** button.  
+
+Once saved, the exam is ready for students to take!  
+**Note:** Ensure that you see a **confirmation message** after saving the exam. If not, an error may have occurred, and the test was not saved.  
+
+#### **Manage Exams**  
+Selecting this option will display a list of previously created tests, showing their **Name, Code,** and **Number of Questions**.  
+You can:  
+- **Delete a test**  
+- **Edit a test**  
+
+When editing a test, you will see a list of questions and answers. You can modify individual questions or add new ones (**see: Add Exam**).  
+To return to the menu, click **Back to Menu**.  
+
+#### **Check Results**  
+This section displays a list of created tests. Click **Show Results** to view detailed scores.  
+- Click **Back to Tests** to return to the test list.  
+- Click **Back to Menu** to return to the main menu.  
+
+### **Logout**  
+After finishing your work, log out using the button in the **top right corner**.
